@@ -1,0 +1,217 @@
+Link ka GitHub nalogu: https://github.com/Lidija87
+
+
+lidij@LAPTOP-BRNMG5I7 MINGW64 ~/OneDrive/Desktop/DomaciZadatak
+$ git init
+Initialized empty Git repository in C:/Users/lidij/OneDrive/Desktop/DomaciZadatak/.git/
+
+lidij@LAPTOP-BRNMG5I7 MINGW64 ~/OneDrive/Desktop/DomaciZadatak (master)
+$ git clone https://github.com/Lidija87/bootcampVezbanje.git
+Cloning into 'bootcampVezbanje'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (3/3), done.
+
+lidij@LAPTOP-BRNMG5I7 MINGW64 ~/OneDrive/Desktop/DomaciZadatak (master)
+$ git config --global user.name "lidija-vm"
+
+lidij@LAPTOP-BRNMG5I7 MINGW64 ~/OneDrive/Desktop/DomaciZadatak (master)
+$ git config --global user.email "lidaveljkovic@gmail.com"
+
+lidij@LAPTOP-BRNMG5I7 MINGW64 ~/OneDrive/Desktop/DomaciZadatak (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        bootcampVezbanje/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+lidij@LAPTOP-BRNMG5I7 MINGW64 ~/OneDrive/Desktop/DomaciZadatak (master)
+$ git add bootcampVezbanje/
+warning: adding embedded git repository: bootcampVezbanje
+hint: You've added another git repository inside your current repository.
+hint: Clones of the outer repository will not contain the contents of
+hint: the embedded repository and will not know how to obtain it.
+hint: If you meant to add a submodule, use:
+hint:
+hint:   git submodule add <url> bootcampVezbanje
+hint:
+hint: If you added this path by mistake, you can remove it from the
+hint: index with:
+hint:
+hint:   git rm --cached bootcampVezbanje
+hint:
+hint: See "git help submodule" for more information.
+
+lidij@LAPTOP-BRNMG5I7 MINGW64 ~/OneDrive/Desktop/DomaciZadatak (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   bootcampVezbanje
+
+
+lidij@LAPTOP-BRNMG5I7 MINGW64 ~/OneDrive/Desktop/DomaciZadatak (master)
+$ git commit -m "Dodat je novi fajl bootcampVezbanje"
+[master (root-commit) ff871fb] Dodat je novi fajl bootcampVezbanje
+ 1 file changed, 1 insertion(+)
+ create mode 160000 bootcampVezbanje
+
+lidij@LAPTOP-BRNMG5I7 MINGW64 ~/OneDrive/Desktop/DomaciZadatak (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+lidij@LAPTOP-BRNMG5I7 MINGW64 ~/OneDrive/Desktop/DomaciZadatak (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+lidij@LAPTOP-BRNMG5I7 MINGW64 ~/OneDrive/Desktop/DomaciZadatak (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+  (commit or discard the untracked or modified content in submodules)
+        modified:   bootcampVezbanje (untracked content)
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+lidij@LAPTOP-BRNMG5I7 MINGW64 ~/OneDrive/Desktop/DomaciZadatak (master)
+$ git add bootcampVezbanje
+
+lidij@LAPTOP-BRNMG5I7 MINGW64 ~/OneDrive/Desktop/DomaciZadatak (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+  (commit or discard the untracked or modified content in submodules)
+        modified:   bootcampVezbanje (untracked content)
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+lidij@LAPTOP-BRNMG5I7 MINGW64 ~/OneDrive/Desktop/DomaciZadatak (master)
+$ cd bootcampVezbanje
+
+lidij@LAPTOP-BRNMG5I7 MINGW64 ~/OneDrive/Desktop/DomaciZadatak/bootcampVezbanje (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        LidijaVeljkovicMirkovic/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+lidij@LAPTOP-BRNMG5I7 MINGW64 ~/OneDrive/Desktop/DomaciZadatak/bootcampVezbanje (main)
+$ git add LidijaVeljkovicMirkovic/
+
+lidij@LAPTOP-BRNMG5I7 MINGW64 ~/OneDrive/Desktop/DomaciZadatak/bootcampVezbanje (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   LidijaVeljkovicMirkovic/licniPodaci.txt
+
+
+lidij@LAPTOP-BRNMG5I7 MINGW64 ~/OneDrive/Desktop/DomaciZadatak/bootcampVezbanje (main)
+$ git commit -m "Dodat je novi fajl LidijaVeljkovicMirkovic/licniPodaci.txt"
+[main 11beb51] Dodat je novi fajl LidijaVeljkovicMirkovic/licniPodaci.txt
+ 1 file changed, 4 insertions(+)
+ create mode 100644 LidijaVeljkovicMirkovic/licniPodaci.txt
+
+lidij@LAPTOP-BRNMG5I7 MINGW64 ~/OneDrive/Desktop/DomaciZadatak/bootcampVezbanje (main)
+$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+lidij@LAPTOP-BRNMG5I7 MINGW64 ~/OneDrive/Desktop/DomaciZadatak/bootcampVezbanje (main)
+$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   vezba1.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+lidij@LAPTOP-BRNMG5I7 MINGW64 ~/OneDrive/Desktop/DomaciZadatak/bootcampVezbanje (main)
+$ git add vezba1.txt
+
+lidij@LAPTOP-BRNMG5I7 MINGW64 ~/OneDrive/Desktop/DomaciZadatak/bootcampVezbanje (main)
+$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   vezba1.txt
+
+
+lidij@LAPTOP-BRNMG5I7 MINGW64 ~/OneDrive/Desktop/DomaciZadatak/bootcampVezbanje (main)
+$ git commit -m "Izmenjen je fajl vezba1.txt"
+[main e675cef] Izmenjen je fajl vezba1.txt
+ 1 file changed, 1 insertion(+)
+
+lidij@LAPTOP-BRNMG5I7 MINGW64 ~/OneDrive/Desktop/DomaciZadatak/bootcampVezbanje (main)
+$ git remote add origin https://github.com/Lidija87/bootcampVezbanje.git
+error: remote origin already exists.
+
+lidij@LAPTOP-BRNMG5I7 MINGW64 ~/OneDrive/Desktop/DomaciZadatak/bootcampVezbanje (main)
+$ git remote add origin https://github.com/Lidija87/bootcampVezbanje.git
+error: remote origin already exists.
+
+lidij@LAPTOP-BRNMG5I7 MINGW64 ~/OneDrive/Desktop/DomaciZadatak/bootcampVezbanje (main)
+$ git push -u origin main
+Enumerating objects: 9, done.
+Counting objects: 100% (9/9), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (7/7), 758 bytes | 252.00 KiB/s, done.
+Total 7 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/Lidija87/bootcampVezbanje.git
+   1d8a76b..e675cef  main -> main
+Branch 'main' set up to track remote branch 'main' from 'origin'.
+
+lidij@LAPTOP-BRNMG5I7 MINGW64 ~/OneDrive/Desktop/DomaciZadatak/bootcampVezbanje (main)
+$ git log
+commit e675cef700eae1167069154ad1297bf56d275527 (HEAD -> main, origin/main, origin/HEAD)
+Author: lidija-vm <lidaveljkovic@gmail.com>
+Date:   Thu Sep 16 06:46:10 2021 +0200
+
+    Izmenjen je fajl vezba1.txt
+
+commit 11beb513d1300272d39def03bbe68585284f7adb
+Author: lidija-vm <lidaveljkovic@gmail.com>
+Date:   Thu Sep 16 06:43:55 2021 +0200
+
+    Dodat je novi fajl LidijaVeljkovicMirkovic/licniPodaci.txt
+
+commit 1d8a76bc2d1ac2ed690d8bb3218d3eb1006f3aa4
+Author: Lidija87 <43419785+Lidija87@users.noreply.github.com>
+Date:   Thu Sep 16 06:20:57 2021 +0200
+
+    Create vezba1.txt
+
+lidij@LAPTOP-BRNMG5I7 MINGW64 ~/OneDrive/Desktop/DomaciZadatak/bootcampVezbanje (main)
+$
